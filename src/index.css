@@ -88,7 +88,6 @@ button:focus-visible {
 .footer.blur,.left-column.blur,.right-column.blur{filter:blur(8px);opacity:.3;transition:filter .8s ease, opacity .8s ease}
 .content{grid-column:1/13;display:flex;justify-content:space-between;align-items:center;width:100%;position:absolute;top:50%;left:0;transform:translateY(-50%);padding:0 2rem;will-change:transform}
 .left-column,.right-column{width:40%;display:flex;flex-direction:column;gap:.25rem;transition:filter .5s ease, opacity .5s ease}
-.featured{width:20%;display:flex;justify-content:center;align-items:center;text-align:center;font-size:1.5vw;position:relative;height:10vh;overflow:hidden;transition:filter .5s ease, opacity .5s ease}
 .featured.blur{filter:blur(8px);opacity:.3;transition:filter .8s ease, opacity .8s ease}
 .featured-content{position:absolute;top:0;left:0;width:100%;height:100%;display:flex;justify-content:center;align-items:center;opacity:0;visibility:hidden}
 .featured-content.active{opacity:1;visibility:visible}

@@ -323,7 +323,7 @@ export default function CreativeProcessScroll() {
                 ))}
               </div>
 
-              <div className="featured" id="featured">
+              <div className="w-[20%] flex justify-center items-center text-center text-[1.5vw] relative h-[10vh] overflow-hidden transition-[filter,opacity] duration-500 ease-in-out featured" id="featured">
                 {mid.map((label, i) => (
                   <div key={i} className={`featured-content ${i===0 ? 'active':''}`} id={`featured-${i}`} data-index={i}>
                     <h3>{label}</h3>
